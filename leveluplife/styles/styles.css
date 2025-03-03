@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff6600, #ff3300);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background: #222;
+    padding: 15px;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px;
+    background: url('https://source.unsplash.com/1600x900/?motivation,success') no-repeat center/cover;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 35px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+    background: #ff3300;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.box {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+    background: white;
+    padding: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
